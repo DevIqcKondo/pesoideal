@@ -46,42 +46,42 @@ namespace pesoideal
                 Console.WriteLine("Diagnóstico: Muito abaixo do peso.");
                 Console.ResetColor();
 
-            }else if (imc>=17.00&&imc<=18.49){
+            }else if (imc<=18.49){
                 Console.ForegroundColor=ConsoleColor.Magenta;
                 Console.WriteLine("Sexo: "+sexo);
                 Console.WriteLine("Seu IMC É "+imc+" kg/m².");
                 Console.WriteLine("Diagnóstico: Abaixo do peso.");
                 Console.ResetColor();
 
-            }else if (imc>=18.50&&imc<=24.99){
+            }else if (imc<=24.99){
                 Console.ForegroundColor=ConsoleColor.Magenta;
                 Console.WriteLine("Sexo: "+sexo);
                 Console.WriteLine("Seu IMC É "+imc+" kg/m².");
                 Console.WriteLine("Diagnóstico: Peso normal.");
                 Console.ResetColor();
 
-            } else if (imc>=25.00&&imc<=29.99){
+            } else if (imc<=29.99){
                 Console.ForegroundColor=ConsoleColor.Magenta;
                 Console.WriteLine("Sexo: "+sexo);
                 Console.WriteLine("Seu IMC É "+imc+" kg/m².");
                 Console.WriteLine("Diagnóstico: Acima do peso.");
                 Console.ResetColor();
 
-            } else if (imc>=30.00&&imc<=34.99){
+            } else if (imc<=34.99){
                 Console.ForegroundColor=ConsoleColor.Magenta;
                 Console.WriteLine("Sexo: "+sexo);
                 Console.WriteLine("Seu IMC É "+imc+" kg/m².");
                 Console.WriteLine("Diagnóstico: Obesidade 1.");
                 Console.ResetColor();
 
-            } else if(imc>=35.00&&imc<=39.99){
+            } else if(imc<=39.99){
                 Console.ForegroundColor=ConsoleColor.Magenta;
                 Console.WriteLine("Sexo: "+sexo);
                 Console.WriteLine("Seu IMC É "+imc+" kg/m².");
                 Console.WriteLine("Diagnóstico: Obesidade 2 (severa).");
                 Console.ResetColor();
 
-            } else if (imc>=40.00){
+            } else {
                 Console.ForegroundColor=ConsoleColor.Magenta;
                 Console.WriteLine("Sexo: "+sexo);
                 Console.WriteLine("Seu IMC É "+imc+" kg/m².");
